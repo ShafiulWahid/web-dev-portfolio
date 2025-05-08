@@ -48,6 +48,10 @@
     background-color: #FFF8F3 ;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* header */
 
 .header {
@@ -114,6 +118,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles */
 .about{
     border-radius: 10px;
@@ -132,4 +140,17 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* skills style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+  
+}
+
+.skill{
+    padding: 34px; 
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
